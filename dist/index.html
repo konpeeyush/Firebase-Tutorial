@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Tutorial</title>
+</head>
+
+<body>
+    <h1>Get Starting with Firebase</h1>
+
+    <h2>Firebase Firestore</h2>
+    <form class="add">
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required>
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author" required>
+
+        <button type="submit">Add Book</button>
+    </form>
+
+    <form class="delete">
+        <label for="delete">Enter ID to delete:</label>
+        <input type="text" name="delete" id="delete" required>
+        <button type="submit">Delete Book</button>
+    </form>
+
+    <h2>Firebase Auth</h2>
+    <button class="signIn">Sign in with Google</button>
+    <button class="signOut">Sign Out</button>
+
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
